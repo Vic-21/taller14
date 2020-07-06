@@ -1,0 +1,159 @@
+*{
+    font-family: arial;    
+    color:#5b636d;
+}
+/*IMPORTANTE PARA SEPARACIÓN DE TEXTO*/
+div{padding: 5px; }
+
+#cabecera{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+    font-size: 15px;
+}
+#body{
+    display: flex;    
+    flex-direction: column;
+    padding: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+.icon1{
+     height: 25px;
+     padding: 10px;
+}
+.icon2{
+     height: 30px;
+     padding: 10px;
+
+}
+.icon3{
+    padding:5px;
+    height: 20px;    
+    position: absolute;
+    left:10px;
+}
+
+.icon4{
+    padding:5px;
+    height: 20px;            
+    position: absolute;
+    right: 10px;
+}
+/*Búsqueda*/
+input{
+    width : 120%; 
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    border-block-color:#F4F4F4;
+    border-style: solid;
+}
+
+/*Barra de búsqueda-search*/
+.search{
+    display: flex;    
+    text-align: center;
+    align-items:center;
+    padding: 10px;
+    width: 550px;
+    position: relative;
+}
+
+/*Botones de búsqueda*/
+.buttom{
+        display: flex;    
+        flex-direction: row;
+        align-items:center;
+}
+
+/*Estilo Botones de búsqueda*/
+.but{
+    margin:10px;
+    background-color:#F4F4F4;
+    border-radius: 10px;
+    height: 30px;
+    width: 160px;
+    vertical-align:middle;
+    line-height: 2;
+}
+.icon5{
+    height: 30px;
+    padding: 10px;
+    position: fixed;
+    right: 0px;
+    bottom: 70px;
+    z-index: 1;
+}
+.footer{ 
+    width: 100%;
+    font-size:14px;
+    position: fixed;
+    bottom: 0;
+}
+/*Contenedor 1 - Caja1*/
+.caja1{
+    display: grid ;    
+    grid-template-columns: 1% 8% 8% 15% 12% 5% 20% 8%  8%;
+    grid-template-rows: 20px;
+    grid-gap:10px;
+    grid-auto-rows:25px;
+    padding:5px;
+    background-color:#F4F4F4;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color:#cfd0d4;
+}
+/*Caja1 - primer texto*/
+.a1{
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+/*Contenedor 2 - Caja2*/
+.caja2{
+    display: grid ;    
+    grid-template-columns: 1% 8% 8% 10% 20% 12% 10% 8% 8%;
+    grid-template-rows: 20px;
+    grid-gap:10px;
+    grid-auto-rows:25px;
+    padding:5px;
+    background-color:#F4F4F4;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color:#cfd0d4;
+}
+/*Caja2 - listado de textos alfabeticamente*/
+.a2{
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+.b2{
+    grid-column-start: 2;
+    grid-column-start: 3;
+}
+.c2{
+    grid-column-start: 3;
+    grid-column-start: 4;
+}
+.d2{
+    grid-column-start: 4;
+    grid-column-start: 5;
+}
+.f2{
+    grid-column-start: 7;
+    grid-column-start: 8;
+}    
+.g2{
+    grid-column-start: 8;
+    grid-column-start: 9;
+}  
+.h2{
+    grid-column-start: 9;
+    grid-column-start: 10;
+}
+
